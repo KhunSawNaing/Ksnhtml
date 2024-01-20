@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <input type="button"value="Alucard" id="b1">&nbsp;
+        <input type="button"value="Remove Nge" id="b2">
+        <script type="text/javascript">
+            var btn=document.getElementById("b1");
+            btn.onclick=function(){
+                alert(this.id);
+
+            };
+            btn.onmouseout=function(){
+                alert("Second Year");
+            };
+            var re =document.getElementById("b2");
+            re.onclick=function(){
+                btn.onclick=null;
+                btn.onclick=null;
+                btn.onmouseout=null;
+            };
+            </script>
+            </body>
+</html>
